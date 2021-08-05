@@ -10,22 +10,22 @@ export default class InputField extends Component {
                     <form className="" onSubmit={handleSubmit}>
                         <div className='row'>
                             <div className='col-md-2'>
-                            <input type='text'  autoComplete = "off" placeholder='Name' value={value.name} className='form-control' onChange={ event => handleChange("name" ,event.target.value)} />
+                            <input type='text'  autoComplete = "off" required placeholder='Name' value={value.name} className='form-control' onChange={ event => handleChange("name" ,event.target.value)} />
                             </div> 
                             <div className='col-md-2'>
-                            <input type='text'  autoComplete = "off" placeholder='Details' value={value.detail} className='form-control' onChange={ event => handleChange("detail" ,event.target.value)} />
+                            <input type='text'  autoComplete = "off" required placeholder='Details' value={value.detail} className='form-control' onChange={ event => handleChange("detail" ,event.target.value)} />
                             </div> 
                             <div className='col-md-2'>
-                            <input type='text'  autoComplete = "off" placeholder='Time' value={value.time} className='form-control' onChange={ event => handleChange("time" ,event.target.value)}/>
+                            <input type='text'  autoComplete = "off" required placeholder='Time' value={value.time} className='form-control' onChange={ event => handleChange("time" ,event.target.value)}/>
                             </div> 
                             <div className='col-md-2'>
-                            <input type='text'  autoComplete = "off" placeholder='Total' value={value.total} className='form-control' onChange={ event => handleChange("total" ,event.target.value)}/>
+                            <input type='text'  autoComplete = "off" required placeholder='Total' value={value.total} className='form-control' onChange={ event => handleChange("total" ,event.target.value)}/>
                             </div>
                             <div className='col-md-2'>
-                            <input type='text'  autoComplete = "off" placeholder='Advance' value={value.advance} className='form-control' onChange={ event => handleChange("advance" ,event.target.value)}/>
+                            <input type='text'  autoComplete = "off" required placeholder='Advance' value={value.advance} className='form-control' onChange={ event => handleChange("advance" ,event.target.value)}/>
                             </div>
                             <div className='col-md-2'>
-                            <input type='text'  autoComplete = "off" placeholder='Balance' value={value.balance} className='form-control' onChange={ event => handleChange("balance" ,event.target.value)}/>
+                            <input type='text'  autoComplete = "off" required placeholder='Balance' value={value.balance} className='form-control' onChange={ event => handleChange("balance" ,event.target.value)}/>
                             </div>  
                         </div>
                         <div className='row'>

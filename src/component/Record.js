@@ -26,7 +26,6 @@ class Record extends Component {
   }
   handleChange = (key , item) => {
     const { value, items } = this.state;
-    
     this.setState({ value: { ...value, [key]: item } });
   }
   handleSearch = (event, key) => {
@@ -49,7 +48,6 @@ class Record extends Component {
     let error = false;
     for (let i of formKey) {
       let v = value[i];
-
       if ([undefined, null, '', false].includes(v)) {
         error = true;
       }

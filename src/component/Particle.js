@@ -13,7 +13,7 @@ export default class Particle extends Component {
                     options={{
                         background: {
                         color: {
-                            value: "#4e6b73",
+                            value: "#3C6498",
                         },
                         },
                         fpsLimit: 60,
